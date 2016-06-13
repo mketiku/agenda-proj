@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/foundation.css" >
+    <link rel="stylesheet" href="css/app.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agenda</title>
+  </head>
+
+  <body>
+    <div id= "top" class ="template row" >
+    <h2 class="template">Agenda </h2>
+    <span>
+
+    </span>
+    </div>
+
+    <div class="row large-12"  >
+        <label> Location</label>
+        <div>
+        <input type="search"  placeholder="Enter your current location">
+        </div>
+    </div>
+
+    <div>
+        <table class="row small-12">
+            <thead>
+            <tr id="Header">
+                <th id="Inpspiration" width=""> Inspiration </th>
+                <th id="Events"> Events </th>
+                <th id="Feed"> Feed </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+<div class="row large-6">
+    <input type="button" onclick="show_alert()" value="Query #1 " /> <br>
+    <input type="button" onclick="show_alert2()" value="Query #2 " /> <br>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="http://api.eventful.com/js/api"> </script>
+    <script type="text/javascript"></script>
+    <script src="js/get-agenda.js"></script>
+
+  </body>
+</html>

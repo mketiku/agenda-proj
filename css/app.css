@@ -1,0 +1,29 @@
+
+body {
+    background: white;
+}
+
+/*adding text alignement*/
+h2{
+    color : black;
+    text-align: center;
+
+}
+
+div {
+    background-color: white;
+    color: black;
+
+}
+
+ol{
+    color: black;
+    text-align: left;
+ }
+
+li{
+    color: black;
+}
+
+th, td {
+    padding: 15px;
